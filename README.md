@@ -1,7 +1,4 @@
-# cJSON Pack
-Pack for the ultralightweight JSON parser in ANSI C
-
-## Add-on for cJSON
+# cJSON
 This is an add-on to Dave Gamble's [cJSON](https://github.com/DaveGamble/cJSON) repository.
 It adds a [PDSC file](https://arm-software.github.io/CMSIS_5/Pack/html/packFormat.html), so
 that cJSON can be used in IDEs that support [CMSIS-Packs](https://arm-software.github.io/CMSIS_5/Pack/html/index.html).
