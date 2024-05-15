@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package schemaVersion="1.4" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+<package schemaVersion="1.7.36" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.36/schema/PACK.xsd">
   <vendor>MDK-Packs</vendor>
   <name>cJSON</name>
   <description>Ultralightweight JSON parser in ANSI C</description>
   <!-- web download link -->
   <url>https://github.com/MDK-Packs/Pack/raw/master/cJSON/</url>
   <license>LICENSE.txt</license>
+  <licenseSets>
+    <licenseSet id="all" default="true" gating="true">
+      <license name="LICENSE.txt" title="MIT license" spdx="MIT"/>
+    </licenseSet>
+  </licenseSets>
   <releases>
     <release version="1.0.0" date="2018-05-29">
       Initial release based on cJSON v1.7.7
